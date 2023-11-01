@@ -14,8 +14,8 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","TECNO POVA 4");
         capabilities.setCapability("platformVersion","12.0");
-        capabilities.setCapability("appPackage","mymusic.offlinemusicplayer.mp3player.playmusic");
-        capabilities.setCapability("appActivity","better.musicplayer.activities.MainActivity");
+        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
 
